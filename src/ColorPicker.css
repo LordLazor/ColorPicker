@@ -1,0 +1,43 @@
+  .color-picker {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fff;
+  }
+
+  .color-picker h1 {
+    color: #955500;
+    font: 3em sans-serif;
+    margin-bottom: 60px;
+    font-weight: bold;
+  }
+  
+  .color-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    padding-bottom: 40vh;
+  }
+  
+  .color-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 120px;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    font: 1em sans-serif;
+  }
+  
+  .color-item.focused {
+    transform: scale(1.1);
+  }
+
+  .color-item:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+  }
